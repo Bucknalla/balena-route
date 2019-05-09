@@ -1,4 +1,4 @@
-FROM resin/raspberrypi3-debian:latest
+FROM balena/raspberrypi3-debian:latest
 
 WORKDIR /usr/src/app
 ENV INITSYSTEM on
